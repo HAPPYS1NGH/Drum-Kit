@@ -30,7 +30,7 @@ function playSound(choice) {
             tom4.play()
             break;
         default:
-            console.log(btnInnerHTML)
+            console.log(choice)
             break;
     }
 }
@@ -59,7 +59,8 @@ function buttonAnimation(currentKey) {
 // addEventListener("click" , handleClick) ==> used to add event  1 parameter is the trigger event and 2 function to what to do
 // Use loops after selecting from querySelectorAll
 
-
+// new Audio let us play by using .play() function
+// Use classList and add and remove classes for animation using setTimeout
 
 
 // Used a lot of brain
