@@ -61,7 +61,7 @@ function buttonAnimation(currentKey) {
 
 // new Audio let us play by using .play() function
 // Use classList and add and remove classes for animation using setTimeout
-
+// keypress is an event listener which works on pressing keys and the callback function can contain a event object on which key property gives the key pressed.
 
 // Used a lot of brain
 // let handleClick = (name)=>{
